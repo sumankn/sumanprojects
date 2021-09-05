@@ -1,0 +1,89 @@
+
+
+//    Topic as  file:    routes.rest  //
+//    Authur: suman 
+//    Date:   07/04/2021        // 
+
+
+//get  all the products
+GET   http://localhost:5000/api/product/view
+
+####
+
+GET http://localhost:5000/api/product1/view
+
+#####
+
+GET  http://localhost:5000/api/producttype/view
+
+
+#####
+
+GET http://localhost:5000/api/producttype1/view
+
+
+####
+//get single the product 
+GET  http://localhost:5000/api/product/viewproduct/
+
+####
+
+GET  http://localhost:5000/api/productype/view
+
+###
+
+//add the new products
+
+POST http://localhost:5000/api/product/add
+
+####
+
+POST http://localhost:5000/api/product1/add
+
+###
+POST http://localhost:5000/api/producttype/add
+
+####
+
+POST http://localhost:5000/api/producttype1/add
+
+###
+//update the single prodouct
+PUT  http://localhost:5000/api/product/
+
+####
+PUT  http://localhost:5000/api/producttype/
+
+####
+PUT  http://localhost:5000/api/product/producttype1/
+
+// delete single product
+delete http://localhost:5000/api/product/
+
+###
+
+delete http://localhost:5000/api/product1/delete/
+
+
+####
+delete http://localhost:5000/api/producttype1/delete/9
+
+
+
+// delete all the products 
+delete http://localhost:5000/api/product/deleteall/
+
+
+
+
+
+
+
+        
+
+
+    
+
+
+
+
